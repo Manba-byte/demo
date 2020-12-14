@@ -1,7 +1,6 @@
 package com.example.demo;
 
 import com.example.demo.controller.HttpUtilsProto;
-import com.sun.deploy.net.HttpUtils;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.junit.jupiter.api.Test;

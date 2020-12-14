@@ -8,7 +8,7 @@ import proto.MessageUserLogin;
 @RequestMapping("/test")
 public class TestController {
 
-    @PostMapping(value = "/t1")
+    @PostMapping(value = "/t1", produces = "application/x-protobuf")
     public Login.User t1(@RequestBody Login.User user){
         String password = user.getPassword();
         String username = user.getUsername();
